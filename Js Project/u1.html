@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</head>
+<body class="ph">
+
+    <nav>
+        <ul>
+            <li><a href="atm.html">ATM</a></li>
+            <li><a href="exchanger.html">EXCHANGER</a></li>
+            <li><a href="index.html">CALCULATOR</a></li>
+            <li><a href="js.html">WORK</a></li>
+            <li><a href="u1.html">CART</a></li>
+        </ul>
+    </nav>
+
+    <h1> Shporta </h1>
+    <img src="https://th.bing.com/th/id/OIP.eigxI83-OFKQKZJZSoHaKwHaHa?w=185&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="shporta">
+       <div class="gjen" id="gjen">
+
+       </div>
+
+    <button class="btn btn-primary" onclick="
+      alert('shporta = ' +shporta);
+      document.getElementById('gjen').innerHTML = 
+      shporta;
+    ">
+        Shiko Shporten
+    </button>
+
+    <button class="btn btn-success" onclick="
+        shporta = shporta + 1;
+        alert('Nje produkt u shtua ne shporte')
+        document.getElementById('gjen').innerHTML = 
+        shporta;
+    ">
+        Shto Ne Shporte
+    </button>
+
+    <button class="btn btn-success" onclick="
+        shporta = shporta + 2;
+        alert('2 produkte u shtuan ne shporte')
+    ">
+        Shto 2
+    </button>
+
+    <button class="btn btn-success" onclick="
+    shporta = shporta + 3;
+    alert('3 produkte u shtuan ne shporte');
+    document.getElementById('gjen').innerHTML =
+    shporta;
+    ">
+        Shto 3
+    </button>
+
+    <button class="btn btn-danger" onclick="
+    shporta = 0;
+    alert('Shporta u be reset')
+    document.getElementById('gjen').innerHTML =
+    shporta;
+    ">
+        Reset
+    </button>
+
+    <script>
+
+        let shporta = 0;
+
+        document.getElementById('gjen').innerHTML = shporta;
+   
+   </script>
+
+    
+</body>
+</html>

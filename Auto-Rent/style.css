@@ -1,0 +1,163 @@
+
+h1 {
+    text-align: center;
+    color: rgb(84, 77, 77);
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: rgb(126, 116, 116);
+    padding: 20px;
+}
+nav {
+    background-color: rgb(117, 113, 113);
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav li a:hover {
+    color: rgb(104, 161, 47);
+}
+.car {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+
+.car img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.car h2 {
+    margin: 15px 0 10px;
+    color: blue;
+}
+.car p {
+    font-size: 18px;
+    color: black;
+}
+.cars-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 20px;
+}
+
+.car-box {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(55, 50, 50, 0.527);
+}
+
+.car-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.booking-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.booking-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.booking-table th, .booking-table td {
+    padding: 12px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.booking-table th {
+    background-color: rgb(118, 115, 115);
+    color: white;
+}
+

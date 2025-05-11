@@ -1,0 +1,67 @@
+.premium-logo {
+      width: 150px;
+  }
+    .list-item {
+      display: inline-block;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 26px;
+    }
+    .logo-container{
+      display: flex;
+      justify-content: center;
+    }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .room-photo {
+      height: 200px;
+      width: 250px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .room-title {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .katror {
+     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+      padding: 10px;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+
+    .star {
+      width: 16px;
+    }
+    .menu-container {
+      display: flex;
+      justify-content: center;
+      color:rgb(149, 117, 84);
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+    background-color: black;
+      padding: 30px;
+    }
+
+    .check-button, .explore-button {
+      background-color: rgb(223, 170, 91);
+     padding: 15px;
+      border: none;
+      font-size: 18px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    body {
+      background-color: rgba(0, 0, 0, 0.329);
+    color: #e0e0e0;
+} 

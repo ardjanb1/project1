@@ -1,0 +1,43 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href="atm.html">ATM</a></li>
+                <li><a href="exchanger.html">EXCHANGER</a></li>
+                <li><a href="index.html">CALCULATOR</a></li>
+                <li><a href="js.html">WORK</a></li>
+                <li><a href="u1.html">CART</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+             <form id="exchange-form">
+                <label for="amount"> Vlera </label>
+                <input type="number" id="vlera" placeholder="Vendos vleren monetare" required>
+              
+                <label for="ng-monedha"> NGA:  </label>
+                    <select id="form-monedha">
+                        <option value="USD"> USD </option>
+                        <option value="EUR"> EUR </option>
+                    </select>
+
+                    <label for="te-monedha"> TE:  </label>
+                    <select id="te-monedha">
+                        <option value="USD"> USD </option>
+                        <option value="EUR"> EUR </option>
+                    </select>
+
+                    <button type="button" id="konverto"> Konverto </button>
+                
+             </form>
+             <p id="rezultati"> </p>
+        </div>
+
+        <script src="exchanger.js"></script>
+    </body>
+</html>

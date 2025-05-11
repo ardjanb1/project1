@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details - Auto Rent</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 10px 20px;
+            background-color: #333;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a, nav ul li img {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #333;
+            margin-top: 30px;
+        }
+
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .car-box {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .car-box:hover {
+            transform: scale(1.03);
+        }
+
+        .car-box img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .car-box h3 {
+            margin: 10px 0;
+            color: blue;
+        }
+
+        .car-box ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .car-box li {
+            font-size: 16px;
+            color: black;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Auto Rent</h1>
+
+    <nav>
+        <ul>
+            <li><img src="auto-rent.png" alt="Auto Rent Logo" width="150px"></li>
+            <li><a href="index.html">Car</a></li>
+            <li><a href="car-details.html">Our Car Details</a></li>
+            <li><a href="car-list.html">Our List</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="booking.html">Booking List</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h2 class="section-title">Detaje të Makinave</h2>
+
+    <div class="car-container">
+
+        <div class="car-box">
+            <h3>Range Rover Sport</h3>
+            <img src="https://th.bing.com/th/id/OIP.SUoZXNBRLyhYuplhtx2-QgHaEK?cb=iwc1&rs=1&pid=ImgDetMain" alt="Range Rover Sport">
+            <ul>
+                <li>Çmimi: 300$/dita</li>
+                <li>Motor: 3.0L V6 / V8 Supercharged</li>
+                <li>Transmetim: Automatik</li>
+                <li>Karburanti: Dizel ose Benzinë</li>
+                <li>Vendesh: 5</li>
+                <li>Ngjyra: E zezë / E bardhë / Gri</li>
+            </ul>
+        </div>
+
+        <div class="car-box">
+            <h3>Mercedes-Benz S63 AMG</h3>
+            <img src="https://th.bing.com/th/id/R.1b478fcc011951a226b6bea37bff5256?rik=%2b%2fGlmp1sZ1%2ft0g&pid=ImgRaw&r=0" alt="Mercedes-Benz S63 AMG">
+            <ul>
+                <li>Çmimi: 400$/dita</li>
+                <li>Motor: 4.0L V8 Biturbo</li>
+                <li>Transmetim: Automatik 9-shpejtësi</li>
+                <li>Karburanti: Benzinë</li>
+                <li>Vendesh: 5</li>
+                <li>Ngjyra: E zezë luksoze</li>
+            </ul>
+        </div>
+
+        <div class="car-box">
+            <h3>Audi A6</h3>
+            <img src="https://th.bing.com/th/id/OSK.HERO2zrEyjJWsXlgLLdMYTTyRoI8l7c_9OkBrmxEQpoHMbI?w=312&h=200&c=7&rs=1&o=6&pid=SANGAM" alt="Audi A6">
+            <ul>
+                <li>Çmimi: 300$/dita</li>
+                <li>Motor: 2.0L ose 3.0L TFSI</li>
+                <li>Transmetim: Automatik S tronic</li>
+                <li>Karburanti: Benzinë</li>
+                <li>Vendesh: 5</li>
+                <li>Ngjyra: Gri metalike / E bardhë</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>

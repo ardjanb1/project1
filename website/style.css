@@ -1,0 +1,332 @@
+nav{
+    width: 100%;
+}
+
+nav ul{
+    background-color: sienna;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 30px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.welcome{
+     font-size: 36px;
+     color: black;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.albania{
+    font-size: 17px;
+    color: black;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.sherbimet{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.kutia1{
+    border: 1px solid red;
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 8px black;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item{
+    overflow: hidden;
+}
+
+.item img{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+.imazhi1{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+.imazhi2{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+.imazhi3{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+.imazhi4{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+.imazhi5{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+.imazhi6{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+.imazhi7{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+.imazhi8{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid red;
+}
+
+button{
+     background-color: black;
+     border: none;
+     color: white;
+     padding: 15px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 17px;
+     display: inline-block;
+     border-radius: 22px;
+     margin: 4px 2px;
+}
+button:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.eprodukti{
+     text-align: center;
+     color: red;
+     font-size: 17px;
+     border-bottom: 3px black;
+}
+
+.pprodukti{
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size: 17px;
+    border-bottom: 3px red;
+}
+
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .player {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .player img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+form{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: rebeccapurple;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: violet;
+} 
+
+.galH3{
+    margin-top: 5px;
+    font-size: 20px;
+    color: darkred;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.col-md-3 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.col-md-3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px black;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imazhi-sherbimeve{
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+
+.imazhi-sherbimeve img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+}
+.imazhi-sherbimeve:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px red;
+}
+
+.imazhi-sherbimeve h3{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.alert-danger {
+    background-color: #ffc0cb; 
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.fotoja-rreth{
+    color: black;
+    box-shadow: 2px 2px 1px 3px black;
+    max-height: 100%;
+}
+
+.pershkrim-rreth{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tit-rreth{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 20px;
+}
