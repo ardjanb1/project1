@@ -1,0 +1,13 @@
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; 
+  padding: 0 40px;
+}
+
+.car-card {
+  flex: 1 1 calc(50% - 20px); 
+  max-width: calc(50% - 20px);
+  box-sizing: border-box;
+}
